@@ -25,3 +25,5 @@ Nuestro proyecto de traje de captura de movimiento pretende ser usado para la in
 -	El usuario puede interactuar con la máquina a través del movimiento del traje.
 -	El traje contará con al menos una hora da autonomía inalámbrica.
 -	La animación capturada puede ser usada en una animación de diferentes plataformas
+
+imagenes/diagrama de bloques.png
