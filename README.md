@@ -26,4 +26,4 @@ Nuestro proyecto de traje de captura de movimiento pretende ser usado para la in
 -	El traje contará con al menos una hora da autonomía inalámbrica.
 -	La animación capturada puede ser usada en una animación de diferentes plataformas
 
-(https://github.com/edcorreamo/Mocap/blob/main/imagenes/diagrama%20de%20bloques.png)
+![](imagenes/diagrama%20de%20bloques.png)
