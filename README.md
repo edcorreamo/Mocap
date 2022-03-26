@@ -20,10 +20,12 @@ Nuestro proyecto de traje de captura de movimiento pretende ser usado para la in
 -	Envío de información vía Bluetooth
 -	Articulación con software de videojuegos
 -	Precio accesible para abarcar mayor público.
--	
+
 ## Definición parte no funcional
 -	El usuario puede interactuar con la máquina a través del movimiento del traje.
 -	El traje contará con al menos una hora da autonomía inalámbrica.
 -	La animación capturada puede ser usada en una animación de diferentes plataformas
+-
+## Diagrama de bloques general
 
 ![](imagenes/diagrama%20de%20bloques.png)
