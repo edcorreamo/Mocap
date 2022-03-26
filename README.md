@@ -28,4 +28,4 @@ Nuestro proyecto de traje de captura de movimiento pretende ser usado para la in
 -
 ## Diagrama de bloques general
 
-![](imagenes/diagrama%20de%20bloques.png)
+![](imagenes/diagrama%20de%20bloques.png "width=100")
