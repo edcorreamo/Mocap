@@ -4,14 +4,15 @@
 
 ![](imagenes/diagrama%20de%20bloques.png "width=100")
 
-### Potencia
+## Potencia
+###LTspice
 
 ## ESP32
 
-# Cpmectores
+## Cpmectores
 
 ## USB
 
-# MPU
+## MPU
 
 ## Esquema temporal
