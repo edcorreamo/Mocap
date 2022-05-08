@@ -9,7 +9,7 @@
 
 ## ESP32
 
-## Cpmectores
+## Conectores
 
 ## USB
 
