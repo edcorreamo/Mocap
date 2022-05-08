@@ -12,7 +12,7 @@ En esta seccion se encuentra el regulador de tensión buscando obtener una salid
 ### LTspice
 Con ayuda del IDE de LTspice diseñamos un pequeño cicuito y de este modo analizar la salida que se espera tener en este sistema, para este se usa un regulador LM317 con el cual se espera obtener un comportamiento similar con el AMS1117.
 
-![](https://github.com/edcorreamo/Mocap/blob/main/imagenes/Regulador.JPG "width=70")
+![](https://github.com/edcorreamo/Mocap/blob/main/imagenes/SimRegulador.JPG "width=70")
 
 ![](https://github.com/edcorreamo/Mocap/blob/main/imagenes/Regulador.JPG "width=70")
 
