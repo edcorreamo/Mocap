@@ -6,7 +6,7 @@
 
 ## Regulador
 
-![](https://github.com/edcorreamo/Mocap/blob/main/imagenes/Regulador.JPG "width=100")
+![](https://github.com/edcorreamo/Mocap/blob/main/imagenes/Regulador.JPG "width=70")
 
 ### LTspice
 
