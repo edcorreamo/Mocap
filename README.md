@@ -30,7 +30,7 @@ Nuestro proyecto de traje de captura de movimiento pretende ser usado para la in
 
 ![](imagenes/diagrama%20de%20bloques.png "width=100")
 
-## [ Esquemáticos ](https://github.com/JamesD004/MoCapUnal/tree/main/Esquematico)
+## [ Esquemáticos ](https://github.com/edcorreamo/Mocap/tree/main/Esquematico)
 
 En la presente sección va a encontrar el esquemático que se desarrollo para este proyecto ylas diferentes subsecciones que permiten conformar el circuito.
 
