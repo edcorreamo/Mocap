@@ -16,6 +16,9 @@ Con ayuda del IDE de LTspice diseñamos un pequeño cicuito y de este modo anali
 
 ![](https://github.com/edcorreamo/Mocap/blob/main/imagenes/SimResultRegulador.JPG "width=70")
 
+## ENABLE/BOOT
+La tensión en el enable y el boot en un caso ideal se considera con valores de 0 y 1, sin embargo esta se encuentra en un umbral de funcionamiento, en donde el valor de cero puede tomar hasta un valor de 0.124 mientras que para el funcionamiento del enable se tomo desde un valor de 0.7 el cual se va representar con ayuda de un diodo led.
+### Ltspice
 ## ESP32
 
 ## Conectores
@@ -24,4 +27,4 @@ Con ayuda del IDE de LTspice diseñamos un pequeño cicuito y de este modo anali
 
 ## MPU
 
-## Esquema temporal
+
