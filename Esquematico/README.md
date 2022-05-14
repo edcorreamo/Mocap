@@ -20,7 +20,10 @@ Con ayuda del IDE de LTspice diseñamos un pequeño cicuito y de este modo anali
 La tensión en el enable y el boot en un caso ideal se considera con valores de 0 y 1, sin embargo esta se encuentra en un umbral de funcionamiento, en donde el valor de cero puede tomar hasta un valor de 0.124 mientras que para el funcionamiento del enable se tomo desde un valor de 0.7 el cual se va representar con ayuda de un diodo led.
 ### Ltspice
 La tensión de caida de un diodo esta dado por 0.7V y la corriente en el led es de 20mA, por otro lado la corriente en el enable del ESP32 es de 264uA.
+![](https://github.com/edcorreamo/Mocap/blob/main/imagenes/ResistenciaEn.JPG "width=40")
 ![](https://github.com/edcorreamo/Mocap/blob/main/imagenes/CircEnable.JPG "width=40")
+
+
 
 ## ESP32
 
