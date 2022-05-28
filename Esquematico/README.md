@@ -27,6 +27,11 @@ La tensión de caida de un diodo esta dado por 0.7V y la corriente en el led es 
 
 
 ## ESP32
+![](https://github.com/edcorreamo/Mocap/blob/main/imagenes/esp32-wroom-pinout.png)
+
+Para el desarrollo de este proyecto se hizo uso de un Soc ESP32-WROOM, debido a que representa una solucion ideal para suplir las necesidades de este proyecto. El Soc ESP32-WROOM entre otras cosas, posee un chip capaz de controlar multiplez sensores a la vez por medio de software y ademas cuenta tanto con modulo bluetooth como WIFI integrados, perimitiendo de esta manera la conxion inalambrica con otros dispositivos sin necesidad de un modulo complementario. 
+
+Ahora, el proyecto se realizo teniendo en cuenta las condiciones de operacion y las limitaciones del ESP32-WROOM, este dispositivo debe ser alimentado idealmente con un voltaje de 3,3V o como maximo con un voltaje de 3,6V y puede entregar por sus pines de salida una corriente maxima de 1200mA. Ahora con respecto a sus diferesntes pines, la imagen anterior ilustra cada uno d ellos y sus particularidades.    
 
 ## Conectores
 
