@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>D:\9. noveno semestre\embebidos\esquematico_ESP32_version2.0\esp32_2.kicad_sch</source>
-    <date>5/16/2022 10:44:34 PM</date>
+    <source>C:\Users\Prometeo\Documents\GitHub\Mocap\esquematico_nucleo_central\esp32_2.kicad_sch</source>
+    <date>6/6/2022 11:11:27 AM</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -104,6 +104,15 @@
       <property name="Sheetfile" value="esp32_2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>241af5d8-faa8-4344-989f-9f3ca2c1551f</tstamps>
+    </comp>
+    <comp ref="Control_voltaje1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32_2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e9d5a16-b75a-4440-8879-b7a5b18ca344</tstamps>
     </comp>
     <comp ref="D1">
       <value>LED</value>
@@ -231,15 +240,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>36ea5b27-0b48-47f9-b3f4-f14e186027b6</tstamps>
     </comp>
-    <comp ref="SW1">
-      <value>SW_DIP_x01</value>
-      <footprint>Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm</footprint>
-      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="esp32_2.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>be81e1f5-019a-4e2f-8c71-e57c57e4816e</tstamps>
-    </comp>
     <comp ref="CFF1">
       <value>1nf</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
@@ -303,6 +303,15 @@
       <sheetpath names="/regulador/" tstamps="/14024e4b-59d0-4f66-8eba-1d0eb8f5d9a6/"/>
       <tstamps>3a81fcd6-39e3-4f09-974a-73f3896b07d7</tstamps>
     </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x01</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm</footprint>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value="regulador"/>
+      <property name="Sheetfile" value="regulador.kicad_sch"/>
+      <sheetpath names="/regulador/" tstamps="/14024e4b-59d0-4f66-8eba-1d0eb8f5d9a6/"/>
+      <tstamps>17189964-f1af-43e8-91cf-5b95a4901a3d</tstamps>
+    </comp>
     <comp ref="U1">
       <value>LM2596S-5</value>
       <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
@@ -322,14 +331,14 @@
       <sheetpath names="/connectors/" tstamps="/741e6598-04b9-4005-a079-9081c23103ab/"/>
       <tstamps>70509e78-09eb-429f-9238-02fdb1aa6c53</tstamps>
     </comp>
-    <comp ref="ESPALDA1">
-      <value>Conn_01x04_Female</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="Espalda1">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <sheetpath names="/connectors/" tstamps="/741e6598-04b9-4005-a079-9081c23103ab/"/>
-      <tstamps>a1aee377-cd2e-4eb6-83c3-9d2083a0db49</tstamps>
+      <tstamps>b5b863ac-a506-4b3e-baa9-6daff41ac83f</tstamps>
     </comp>
     <comp ref="M_der1">
       <value>RJ45</value>
@@ -384,22 +393,20 @@
         <pin num="1" name="Pin_1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x04_Female">
-      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x04_Female</field>
+        <field name="Value">Conn_01x02_Male</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_01x05_Female">
@@ -419,6 +426,28 @@
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
         <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="RJ45">
@@ -695,14 +724,16 @@
     <net code="1" name="+3V3">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="Cabeza1" pin="2" pintype="passive"/>
+      <node ref="Cabeza1" pin="1" pintype="passive"/>
+      <node ref="Control_voltaje1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="ESP32" pin="2" pinfunction="VDD" pintype="power_in"/>
-      <node ref="ESPALDA1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="M_der1" pin="2" pintype="passive"/>
-      <node ref="M_izq1" pin="2" pintype="passive"/>
-      <node ref="P_der1" pin="7" pintype="passive"/>
-      <node ref="P_izq1" pin="7" pintype="passive"/>
+      <node ref="Espalda1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="M_der1" pin="1" pintype="passive"/>
+      <node ref="M_izq1" pin="1" pintype="passive"/>
+      <node ref="P_der1" pin="8" pintype="passive"/>
+      <node ref="P_izq1" pin="8" pintype="passive"/>
+      <node ref="Programador1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="SW1" pin="2" pintype="passive"/>
@@ -713,28 +744,39 @@
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="4" name="/CLC_1">
+    <net code="3" name="/CLC_1">
       <node ref="Cabeza1" pin="3" pintype="passive"/>
       <node ref="ESP32" pin="8" pinfunction="IO32" pintype="bidirectional"/>
     </net>
-    <net code="5" name="/CLC_2">
+    <net code="4" name="/CLC_2">
       <node ref="ESP32" pin="10" pinfunction="IO25" pintype="bidirectional"/>
+      <node ref="M_izq1" pin="3" pintype="passive"/>
     </net>
-    <net code="6" name="/CLC_3">
+    <net code="5" name="/CLC_3">
       <node ref="ESP32" pin="12" pinfunction="IO27" pintype="bidirectional"/>
-      <node ref="ESP32" pin="16" pinfunction="IO13" pintype="bidirectional"/>
+      <node ref="Espalda1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="M_izq1" pin="5" pintype="passive"/>
     </net>
-    <net code="7" name="/CLC_4">
+    <net code="6" name="/CLC_4">
+      <node ref="ESP32" pin="16" pinfunction="IO13" pintype="bidirectional"/>
       <node ref="P_izq1" pin="6" pintype="passive"/>
     </net>
-    <net code="8" name="/CLC_5">
+    <net code="7" name="/CLC_5">
       <node ref="ESP32" pin="24" pinfunction="IO2" pintype="bidirectional"/>
+      <node ref="P_izq1" pin="4" pintype="passive"/>
     </net>
-    <net code="9" name="/CLC_6">
+    <net code="8" name="/CLC_6">
       <node ref="ESP32" pin="27" pinfunction="IO16" pintype="bidirectional"/>
+      <node ref="M_der1" pin="3" pintype="passive"/>
+    </net>
+    <net code="9" name="/CLC_7">
+      <node ref="ESP32" pin="28" pinfunction="IO17" pintype="bidirectional"/>
+      <node ref="M_der1" pin="5" pintype="passive"/>
+      <node ref="P_der1" pin="6" pintype="passive"/>
     </net>
     <net code="10" name="/CLC_8">
       <node ref="ESP32" pin="31" pinfunction="IO19" pintype="bidirectional"/>
+      <node ref="P_der1" pin="4" pintype="passive"/>
     </net>
     <net code="11" name="/COMUNICACION">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
@@ -748,77 +790,49 @@
       <node ref="ESP32" pin="11" pinfunction="IO26" pintype="bidirectional"/>
       <node ref="M_izq1" pin="4" pintype="passive"/>
     </net>
-    <net code="14" name="/DATA_4">
+    <net code="14" name="/DATA_3">
+      <node ref="ESP32" pin="13" pinfunction="IO14" pintype="bidirectional"/>
+      <node ref="Espalda1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="M_izq1" pin="6" pintype="passive"/>
+    </net>
+    <net code="15" name="/DATA_4">
       <node ref="ESP32" pin="23" pinfunction="IO15" pintype="bidirectional"/>
       <node ref="P_izq1" pin="5" pintype="passive"/>
     </net>
-    <net code="15" name="/DATA_5">
+    <net code="16" name="/DATA_5">
       <node ref="ESP32" pin="26" pinfunction="IO4" pintype="bidirectional"/>
       <node ref="P_izq1" pin="3" pintype="passive"/>
     </net>
-    <net code="16" name="/DATA_6">
-      <node ref="ESP32" pin="28" pinfunction="IO17" pintype="bidirectional"/>
+    <net code="17" name="/DATA_6">
       <node ref="ESP32" pin="29" pinfunction="IO5" pintype="bidirectional"/>
       <node ref="M_der1" pin="4" pintype="passive"/>
     </net>
-    <net code="17" name="/DATA_8">
+    <net code="18" name="/DATA_7">
+      <node ref="ESP32" pin="30" pinfunction="IO18" pintype="bidirectional"/>
+      <node ref="M_der1" pin="6" pintype="passive"/>
+      <node ref="P_der1" pin="5" pintype="passive"/>
+    </net>
+    <net code="19" name="/DATA_8">
       <node ref="ESP32" pin="33" pinfunction="IO21" pintype="bidirectional"/>
       <node ref="P_der1" pin="3" pintype="passive"/>
     </net>
-    <net code="18" name="/EN">
+    <net code="20" name="/EN">
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="ESP32" pin="3" pinfunction="EN" pintype="input"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="Reset1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="19" name="/IO0">
+    <net code="21" name="/IO0">
       <node ref="Boot/flash1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="ESP32" pin="25" pinfunction="IO0" pintype="bidirectional"/>
       <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="20" name="/TRANSMISION">
+    <net code="22" name="/TRANSMISION">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="ESP32" pin="37" pinfunction="IO23" pintype="bidirectional"/>
     </net>
-    <net code="21" name="/connectors/CLA_6">
-      <node ref="M_der1" pin="3" pintype="passive"/>
-    </net>
-    <net code="22" name="/connectors/CLC_2">
-      <node ref="M_izq1" pin="3" pintype="passive"/>
-    </net>
-    <net code="23" name="/connectors/CLC_8">
-      <node ref="P_der1" pin="4" pintype="passive"/>
-    </net>
-    <net code="24" name="/connectors/ClC_5">
-      <node ref="P_izq1" pin="4" pintype="passive"/>
-    </net>
-    <net code="25" name="/regulador/VCC_3.3">
-      <node ref="CFF1" pin="2" pintype="passive"/>
-      <node ref="C_out_35v1" pin="1" pintype="passive"/>
-      <node ref="L1_SMD1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="SW1" pin="1" pintype="passive"/>
-    </net>
-    <net code="26" name="CLA_hombro_IZQ">
-      <node ref="ESPALDA1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="M_izq1" pin="5" pintype="passive"/>
-    </net>
-    <net code="27" name="CLA_hombro_der">
-      <node ref="M_der1" pin="5" pintype="passive"/>
-      <node ref="P_der1" pin="6" pintype="passive"/>
-    </net>
-    <net code="28" name="DATA_hombro_ISQ">
-      <node ref="ESP32" pin="13" pinfunction="IO14" pintype="bidirectional"/>
-      <node ref="ESPALDA1" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="M_izq1" pin="6" pintype="passive"/>
-    </net>
-    <net code="29" name="DATA_hombro_der">
-      <node ref="ESP32" pin="30" pinfunction="IO18" pintype="bidirectional"/>
-      <node ref="M_der1" pin="6" pintype="passive"/>
-      <node ref="P_der1" pin="5" pintype="passive"/>
-    </net>
-    <net code="30" name="GND">
+    <net code="23" name="GND">
       <node ref="Boot/flash1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
@@ -826,18 +840,19 @@
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C_in_50V_470" pin="2" pintype="passive"/>
       <node ref="C_out_35v1" pin="2" pintype="passive"/>
-      <node ref="Cabeza1" pin="1" pintype="passive"/>
+      <node ref="Cabeza1" pin="2" pintype="passive"/>
+      <node ref="Control_voltaje1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="D1SMD1" pin="1" pinfunction="K" pintype="input"/>
       <node ref="ESP32" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="ESP32" pin="15" pinfunction="GND" pintype="passive"/>
       <node ref="ESP32" pin="38" pinfunction="GND" pintype="passive"/>
       <node ref="ESP32" pin="39" pinfunction="GND" pintype="passive"/>
-      <node ref="ESPALDA1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="M_der1" pin="1" pintype="passive"/>
-      <node ref="M_izq1" pin="1" pintype="passive"/>
+      <node ref="Espalda1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="M_der1" pin="2" pintype="passive"/>
+      <node ref="M_izq1" pin="2" pintype="passive"/>
       <node ref="N_batt1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="P_der1" pin="8" pintype="passive"/>
-      <node ref="P_izq1" pin="8" pintype="passive"/>
+      <node ref="P_der1" pin="7" pintype="passive"/>
+      <node ref="P_izq1" pin="7" pintype="passive"/>
       <node ref="Programador1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
@@ -846,116 +861,132 @@
       <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U1" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
     </net>
-    <net code="31" name="Net-(CFF1-Pad1)">
+    <net code="24" name="Net-(CFF1-Pad1)">
       <node ref="CFF1" pin="1" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="32" name="Net-(D1-Pad1)">
+    <net code="25" name="Net-(CFF1-Pad2)">
+      <node ref="CFF1" pin="2" pintype="passive"/>
+      <node ref="C_out_35v1" pin="1" pintype="passive"/>
+      <node ref="L1_SMD1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(D1SMD1-Pad2)">
+    <net code="27" name="Net-(D1SMD1-Pad2)">
       <node ref="D1SMD1" pin="2" pinfunction="A" pintype="input"/>
       <node ref="L1_SMD1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="34" name="Net-(D2-Pad1)">
+    <net code="28" name="Net-(D2-Pad1)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(D3-Pad1)">
+    <net code="29" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(ESP32-Pad34)">
+    <net code="30" name="Net-(ESP32-Pad34)">
       <node ref="ESP32" pin="34" pinfunction="RXD0/IO3" pintype="bidirectional"/>
       <node ref="Programador1" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(ESP32-Pad35)">
+    <net code="31" name="Net-(ESP32-Pad35)">
       <node ref="ESP32" pin="35" pinfunction="TXD0/IO1" pintype="bidirectional"/>
       <node ref="Programador1" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="38" name="unconnected-(Cabeza1-Pad5)">
+    <net code="32" name="unconnected-(Cabeza1-Pad5)">
       <node ref="Cabeza1" pin="5" pintype="passive+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(Cabeza1-Pad6)">
+    <net code="33" name="unconnected-(Cabeza1-Pad6)">
       <node ref="Cabeza1" pin="6" pintype="passive+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(Cabeza1-Pad7)">
+    <net code="34" name="unconnected-(Cabeza1-Pad7)">
       <node ref="Cabeza1" pin="7" pintype="passive+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(Cabeza1-Pad8)">
+    <net code="35" name="unconnected-(Cabeza1-Pad8)">
       <node ref="Cabeza1" pin="8" pintype="passive+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(ESP32-Pad4)">
+    <net code="36" name="unconnected-(ESP32-Pad4)">
       <node ref="ESP32" pin="4" pinfunction="SENSOR_VP" pintype="input+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(ESP32-Pad5)">
+    <net code="37" name="unconnected-(ESP32-Pad5)">
       <node ref="ESP32" pin="5" pinfunction="SENSOR_VN" pintype="input+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(ESP32-Pad6)">
+    <net code="38" name="unconnected-(ESP32-Pad6)">
       <node ref="ESP32" pin="6" pinfunction="IO34" pintype="input+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(ESP32-Pad7)">
+    <net code="39" name="unconnected-(ESP32-Pad7)">
       <node ref="ESP32" pin="7" pinfunction="IO35" pintype="input+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(ESP32-Pad14)">
+    <net code="40" name="unconnected-(ESP32-Pad14)">
       <node ref="ESP32" pin="14" pinfunction="IO12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(ESP32-Pad17)">
+    <net code="41" name="unconnected-(ESP32-Pad17)">
       <node ref="ESP32" pin="17" pinfunction="SHD/SD2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(ESP32-Pad18)">
+    <net code="42" name="unconnected-(ESP32-Pad18)">
       <node ref="ESP32" pin="18" pinfunction="SWP/SD3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(ESP32-Pad19)">
+    <net code="43" name="unconnected-(ESP32-Pad19)">
       <node ref="ESP32" pin="19" pinfunction="SCS/CMD" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(ESP32-Pad20)">
+    <net code="44" name="unconnected-(ESP32-Pad20)">
       <node ref="ESP32" pin="20" pinfunction="SCK/CLK" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(ESP32-Pad21)">
+    <net code="45" name="unconnected-(ESP32-Pad21)">
       <node ref="ESP32" pin="21" pinfunction="SDO/SD0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(ESP32-Pad22)">
+    <net code="46" name="unconnected-(ESP32-Pad22)">
       <node ref="ESP32" pin="22" pinfunction="SDI/SD1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(ESP32-Pad32)">
+    <net code="47" name="unconnected-(ESP32-Pad32)">
       <node ref="ESP32" pin="32" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="54" name="unconnected-(M_der1-Pad7)">
+    <net code="48" name="unconnected-(Espalda1-Pad1)">
+      <node ref="Espalda1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(Espalda1-Pad2)">
+      <node ref="Espalda1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(Espalda1-Pad3)">
+      <node ref="Espalda1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(Espalda1-Pad4)">
+      <node ref="Espalda1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(M_der1-Pad7)">
       <node ref="M_der1" pin="7" pintype="passive+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(M_der1-Pad8)">
+    <net code="53" name="unconnected-(M_der1-Pad8)">
       <node ref="M_der1" pin="8" pintype="passive+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(M_izq1-Pad7)">
+    <net code="54" name="unconnected-(M_izq1-Pad7)">
       <node ref="M_izq1" pin="7" pintype="passive+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(M_izq1-Pad8)">
+    <net code="55" name="unconnected-(M_izq1-Pad8)">
       <node ref="M_izq1" pin="8" pintype="passive+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(P_der1-Pad1)">
+    <net code="56" name="unconnected-(P_der1-Pad1)">
       <node ref="P_der1" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(P_der1-Pad2)">
+    <net code="57" name="unconnected-(P_der1-Pad2)">
       <node ref="P_der1" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="60" name="unconnected-(P_izq1-Pad1)">
+    <net code="58" name="unconnected-(P_izq1-Pad1)">
       <node ref="P_izq1" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="61" name="unconnected-(P_izq1-Pad2)">
+    <net code="59" name="unconnected-(P_izq1-Pad2)">
       <node ref="P_izq1" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="62" name="unconnected-(Programador1-Pad1)">
+    <net code="60" name="unconnected-(Programador1-Pad1)">
       <node ref="Programador1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="63" name="unconnected-(Programador1-Pad5)">
-      <node ref="Programador1" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
-    </net>
-    <net code="64" name="unconnected-(RV1-Pad3)">
+    <net code="61" name="unconnected-(RV1-Pad3)">
       <node ref="RV1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
   </nets>
